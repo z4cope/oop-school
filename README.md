@@ -116,6 +116,17 @@ Install this project with:
 
 <!-- CONTRIBUTING -->
 
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **[decorate a class]**
+- [ ] **[setup associations]**
+- [ ] **[Add basic UI]**
+- [ ] **[Add tests]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
