@@ -1,7 +1,7 @@
 require_relative './rental'
 
 class Person
-  def initialize(age, name = 'Unknown', parent_permission: true)
+  def initialize(age, name = 'Unknown', parent_permission: true, rentals: 0)
     @id = Random.rand(1..1000)
     @age = age
     @name = name
@@ -9,7 +9,7 @@ class Person
   end
 
   attr_reader :id
-  attr_accessor :name, :age
+  attr_accessor :name, :age, :rentals
 
   def can_use_services?
     @age > 18 or @parent_permission == true
