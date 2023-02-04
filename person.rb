@@ -1,7 +1,7 @@
 require_relative './rental'
 
 class Person
-  def initialize(age, name = 'Unknown', parent_permission: true, rentals: 0)
+  def initialize(age, name = 'Unknown', parent_permission: true, _rentals: 0)
     @id = Random.rand(1..1000)
     @age = age
     @name = name
