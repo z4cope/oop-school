@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <h3><b>OOP README Template</b></h3>
+  <h3><b>OOP School</b></h3>
 
 </div>
 
